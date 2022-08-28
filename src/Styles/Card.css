@@ -1,0 +1,28 @@
+.card-container{
+    border: solid 1px grey none;
+    border-radius: 45px;
+    border-style: none;
+    box-shadow: 1px 1px 1px 1px black;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    width: 45%;
+    min-height: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.card-details{
+    width: 70%;
+    padding: 30px;
+    text-align: center;
+}
+.card-details h2, p{
+    color: #bcccdf;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.card-details img{
+    margin-top: 10px;
+    border-radius: 20px;
+}
