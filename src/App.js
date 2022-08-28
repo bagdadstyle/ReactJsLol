@@ -6,10 +6,9 @@ import "./App.css";
 
 function App() {
   const API_KEY = "RGAPI-dc90cb76-ed48-4380-a504-b42a53be1589";
-  const [text, setText] = useState("");
   const [playerData, setPlayerData] = useState({});
   function onSearch(text) {
-    if (text.length > 1) {
+    if (text.length > 2) {
       fetch(
         `https://la2.api.riotgames.com/lol/summoner/v4/summoners/by-name/${text}?api_key=${API_KEY}`
       )
